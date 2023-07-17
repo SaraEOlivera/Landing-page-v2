@@ -1,0 +1,355 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    border-top: 3px solid #efb810;
+    background-color:  #f2f2f2;
+}
+
+main {
+    background-color:  #f2f2f2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Caracteristicas generales de cada seccion */
+section {
+    width: 100%;
+    height: 600px;
+}
+
+/* Header y navbar */
+.navbar {
+    padding: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px; 
+}
+
+.logo img {
+    width: 100px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-link:hover{
+    color: #bf930d;
+}
+
+/* Seccion imagen de piano */
+.imagen {
+    height: auto;
+}
+
+.imagen-piano img {
+    width: 100%;
+    height: auto;
+}
+
+/* Seccion about */
+.contenedor-about {
+    padding-top: 150px;
+}
+
+.casa-vera {
+    height: auto;
+    width: 60%;
+}
+
+.texto-vera {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 18px;
+    height: 400px;
+    width: 40%;
+}
+
+/* Seccion carrusel */
+
+
+.carrusel-pianos {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+}
+
+/* Seccion pricing */
+.filas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.columna {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.card {
+    height: 600px;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.card:hover{
+    background-color: #f2f2f2;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.btn-card {
+    border: 1px solid #efb810;
+    font-family: 'Ysabeau Infant', sans-serif;
+    width: 90%;
+    font: 18px;
+}
+
+.btn-card:hover {
+    background-color: #efb810;
+    color: #f2f2f2
+}
+
+/* Seccion caracteristicas */
+.caracteristicas {
+    margin: 80px auto;
+}
+
+.caracteristicas h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    color: #efb810;
+    padding: 15px;
+}
+
+.acordeon {  
+    padding-top: 40px;  
+    height: 400px;
+    margin: auto;
+}
+
+.accordion-item{
+    background-color: #f2f2f2;
+}
+
+.accordion-header button{
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.accordion-header button:focus {
+    border-top: 2px solid #efb810;
+}
+
+
+.acordeon-iconos i {
+    padding-right: 30px;
+    font-size: 20px;
+    color: #efb810;
+}
+
+.leyenda {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #efb810;
+}
+
+/* Footer landing page */
+.footer-vera{
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid #efb810;
+}
+
+.contenedor-footer-vera {
+    display: flex;
+}
+
+.contenedor-footer-vera h4 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Mapa Google */
+.plano {
+    width: 40%;
+}
+
+.plano iframe{
+    height: 250px;
+    max-height: 250px;
+    width: 100%;
+}
+
+.redes, .vera {
+    height: 250px;
+    margin: auto;
+}
+
+/* Redes Sociales Vera */
+
+.redes{
+    width: 20%;
+}
+
+.redes-vera-iconos {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-vera-iconos i {
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+    height: 70px;
+    transition: 1s;
+}
+
+.redes-vera-iconos i:hover {
+    color: #efb810;
+    font-size: 28px;
+}
+
+/* Logo de Pianos Vera */
+.vera {
+    width: 20%;
+}
+
+.vera img {
+    width: 100%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+/* Mi Footer */
+.footer-oli {
+    margin-top: 5px;
+    height: auto;
+    width: 100%;
+    background-color: rgb(65, 65, 54);
+}
+
+.contenedor-footer-oli {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page, .link-footer, .icono-contacto {
+    color: #f2f2f2;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+    height: 80px;
+}
+
+.link-footer {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icono-contacto a {
+    width: 20%;
+    transition: 1s;
+    color: #f2f2f2;
+
+}
+
+.icono-contacto a:hover {
+    color: #efb810;
+}
+
+
+/* Responsive */
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    body {
+        width: 748px;
+    }
+    
+    /* Header y navbar */
+    header {
+        width: 100%;
+    }
+
+    /* Caracteristicas generales de cada seccion */
+    section {
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Seccion imagen de piano */
+    
+
+    /* Seccion about */
+    .contenedor-about {
+        padding-top: 100px;
+    }
+    
+    .casa-vera {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .texto-vera {
+        height: 250px;
+        margin-top: 50px;
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    /* Seccion carrusel */
+    
+    .carrusel {
+        height: 600px;
+    }
+    .carrusel-pianos {
+        width: 90%;
+        height: 500px;
+    }
+    
+    /* Seccion pricing */
+    .filas {
+        height: 1200px;
+    }
+
+
+    .columna {
+        flex: 50%;
+        max-width: 50%;
+      }
+    
+    /* Seccion caracteristicas */    
+    .leyenda {
+        margin-top: 110px;
+        font-size: 22px;
+    }    
+}

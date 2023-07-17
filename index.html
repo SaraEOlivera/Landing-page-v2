@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sara Elisa Olivera">
+    <meta name="description" content="Landing Page">
+    <meta name="keywords" content="HTML, CSS, Bootstrap, Landing Page">
+    <title>Pianos vera | Landing Page</title>
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Logo insertado en pestaña -->
+    <link rel="icon" href="imagenes/logo-2.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <!-- con nunito sans y Ysabeu Infant fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Ysabeau+Infant&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="imagenes/logo.jpg" alt="Logo de la pagina"> 
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pianos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <!-- Seccion imagen de piano -->
+        <section class="imagen">
+            <div class="imagen-piano">
+                <img src="imagenes/piano.jpg" alt="Imagen de un piano de cola">
+            </div>
+        </section>
+    
+        <!-- Section About us -->
+        <section class="about">
+            <div class="container contenedor-about">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 casa-vera">
+                        <img src="imagenes/casa-vera.jpg" alt="Pianos de Casa Vera">
+                    </div>
+                    <div class="col-lg-6 col-md-12 texto-vera">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem recusandae. Veniam quae aperiam omnis dolorum nobis. Sint, voluptates eius deserunt vero modi atque quisquam sit nobis a minus dolorem?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae odio cumque, et provident eveniet, eaque, aut aspernatur ab perspiciatis dolore voluptate tempora culpa molestias repudiandae quos ut qui corrupti.</p>
+                    </div>
+                </div>
+            </div>
+        </section>    
+      
+        <!-- section carrusel de pianos -->
+        <section class="carrusel">
+            <!-- carrusel de pianos con Bootstrap-->
+            <div id="carouselWidthIndicators" class="carousel slide carrusel-pianos">
+                <!-- Indicadores del carrusel -->
+                <div class="carousel-indicators">
+                    <!-- indicador para imagen 1 -->
+                  <button type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                  </button>
+                    <!-- indicador para imagen 2 -->
+                  <button type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                  </button>
+                    <!-- indicador para imagen 3 -->
+                  <button type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                  </button>
+                  <!-- indicador para imagen 4 -->
+                  <button type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide-to="3" aria-label="Slide 4">
+                  </button>
+                  <!-- indicador para imagen 5 -->
+                  <button type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide-to="4" aria-label="Slide 5">
+                  </button>
+                  <!-- indicador para imagen 6 -->
+                  <button type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide-to="5" aria-label="Slide 6">
+                  </button>
+                </div>
+                <!-- Fotos del carrusel -->
+                <div class="carousel-inner">
+                    <!-- Foto 1 -->
+                  <div class="carousel-item active">
+                    <img src="imagenes/carrusel/piano1.png" class="d-block w-100" alt="Imagen del piano">
+                  </div>
+                    <!-- Foto 2 -->
+                  <div class="carousel-item">
+                    <img src="imagenes/carrusel/piano2.jpg" class="d-block w-100" alt="Imagen del piano">
+                  </div>
+                    <!-- Foto 3 -->
+                  <div class="carousel-item">
+                    <img src="imagenes/carrusel/piano3.jpg" class="d-block w-100" alt="Imagen del piano">
+                  </div>
+                  <!-- Foto 4 -->
+                  <div class="carousel-item">
+                    <img src="imagenes/carrusel/piano4.png" class="d-block w-100" alt="Imagen del piano">
+                  </div>
+                  <!-- Foto 5 -->
+                  <div class="carousel-item">
+                    <img src="imagenes/carrusel/piano5.jpg" class="d-block w-100" alt="Imagen del piano">
+                  </div>
+                  <!-- Foto 6 -->
+                  <div class="carousel-item">
+                    <img src="imagenes/carrusel/piano6.png" class="d-block w-100" alt="Imagen del piano">
+                  </div>
+                </div>
+                <!-- Flechitas del carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselWidthIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section> 
+      
+        <!-- section precios de pianos  -->
+        <section class="pricing">
+            <div class="filas">
+                <!-- Cuadro 1 -->
+                  <div class="columna">
+                    <div class="card precio1" style="width: 18rem;">
+                      <img src="imagenes/cards/acoustic.jpeg" class="card-img-top" alt="Piano acústico">
+                      <div class="card-body">
+                        <h5 class="card-title">Acoustic piano</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium, cupiditate nihil doloribus, possimus voluptas, sed quibusdam repudiandae quam omnis dolor tenetur nobis quos non nostrum illum veritatis pariatur odit!</p>
+                        <a href="#" class="btn btn-card">Más información</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Cuadro 2 -->
+                  <div class="coLumna">
+                    <div class="card precio2" style="width: 18rem;">
+                        <img src="imagenes/cards/clavinova.png" class="card-img-top" alt="Clavinova Piano">
+                        <div class="card-body">
+                          <h5 class="card-title">Clavinova</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nihil optio dignissimos, veniam maxime officia vero sunt eaque atque harum nostrum quam corporis vel obcaecati? Amet nobis voluptate quae blanditiis.</p>
+                          <a href="#" class="btn btn-card">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- Cuadro 3 -->
+                    <div class="columna">    
+                        <div class="card precio3" style="width: 18rem;">
+                            <img src="imagenes/cards/disklaiver.png" class="card-img-top" alt="Disklaiver piano">
+                            <div class="card-body">
+                              <h5 class="card-title">Disklaiver</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum labore sequi quibusdam harum quidem perferendis rerum dicta dignissimos, enim, perspiciatis facilis architecto a nobis accusantium vel neque iure voluptatum consequuntur.</p>
+                              <a href="#" class="btn btn-card">Más información</a>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- Cuadro 4 -->
+                    <div class="columna">
+                        <div class="card precio4" style="width: 18rem;">
+                          <img src="imagenes/cards/hybrid.png" class="card-img-top" alt="Hybrid Piano.">
+                          <div class="card-body">
+                            <h5 class="card-title">Hybrid Piano</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, optio aperiam! Labore ipsam velit, enim voluptates eveniet maxime praesentium magnam ab cum. Impedit modi consectetur, blanditiis magni nulla est doloremque.</p>
+                            <a href="#" class="btn btn-card">Más información</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </section>  
+    
+        <!-- section caracteristicas -->
+        <section class="caracteristicas">
+            <h2>How we work</h2>
+            <div class="accordion acordeon" id="accordionExample">
+                <div class="accordion-item premium">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="acordeon-iconos">
+                            <i class="bi bi-gem"></i>
+                        </div>
+                      Premium Materials
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#miAccordion">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex ipsum optio officiis velit nobis illo, numquam unde nostrum voluptate excepturi! Beatae accusantium mollitia voluptates tenetur veritatis totam amet ad. Consequatur!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ducimus veniam sit, eius debitis inventore molestiae vero, voluptate harum, excepturi repellat rem saepe? Nobis maxime modi blanditiis. Eaque, omnis quia.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item shipping">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="acordeon-iconos">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        Fast Shipping
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#miAccordion">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore iusto necessitatibus accusantium, repellat impedit doloribus fugit, debitis quis vel architecto ut in nostrum amet provident veritatis repudiandae culpa dolorum optio?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi rerum quia voluptates sit eligendi dignissimos, facilis atque sunt minus blanditiis doloremque, quae, veniam iusto consequatur earum nam facere cum eos?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item quality">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="acordeon-iconos">
+                            <i class="bi bi-trophy"></i>
+                        </div>
+                        Quality Assurance
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#miAccordion">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi ad soluta expedita consequuntur excepturi labore tempore repellendus temporibus maiores consequatur, vel reiciendis, ratione, neque voluptate doloremque? Quod, voluptatem maiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, provident! Porro modi sit accusantium molestias rem voluptate, esse dolorem blanditiis magni est ipsam quo perspiciatis voluptatibus doloribus aliquid ut. Sunt.</p>
+                    </div>
+                  </div>
+                </div>
+            </div> 
+            <p class="leyenda">
+              Now is the time to own your dream piano.
+            </p>      
+        </section>
+        
+        <!-- Footer  1 -->
+        <footer class="footer-vera">
+            <div class="contenedor-footer-vera">
+                <!-- Mapa del sitio -->
+                <div class="plano">
+                  <h4>Our Location</h4>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.475872821008!2d-64.19730026359329!3d-31.4088978907155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993038308dbd%3A0x6b19099e5c73a073!2sPlaza%20Col%C3%B3n!5e0!3m2!1ses!2sar!4v1689156429753!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- Redes Pianos Vera -->
+                <div class="redes">
+                  <h4>Follow Us</h4>
+                  <div class="redes-vera-iconos">
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                  </div>
+                </div>
+                <!-- Logo Pianos Vera -->
+                <div class="vera">
+                  <h4>Pianos Vera</h4>
+                  <img src="imagenes/logo.jpg" alt="Logo de la página">
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    <!-- footer 2 -->
+    <footer class="footer-oli">
+        <div class="contenedor-footer-oli">
+            <p class="texto-footer landing-page">Landing Page</p>
+            <div class="texto-footer icono-contacto">
+              <a href="mailto:saraeolivera@gmail.com" rel="noopener noreferrer"><i class="bi bi-envelope"></i></a>
+            </div>
+            <a class="texto-footer link-footer" href="https://github.com/SaraEOlivera?tab=repositories" target="_blank" rel="noopener noreferrer">Sara Elisa Olivera</a href="https://github.com/SaraEOlivera?tab=repositories">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <header id="header">
+         Logo + navbar 
+         <div id="logo"> -->
+            <!-- img logo -->
+       <!-- </div>
+        <nav id="nav-bar">
+            <ul class="menu">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#video" class="nav-link">How it Works</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>  
+
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label id="bef-email">Handcrafted, home-made masterpieces</label>
+        <input type="email" id="email" name="email" placeholder="Enter your e-mail" required> <br>
+
+        <button type="submit" id="submit"><a href=" https://www.freecodecamp.com/email-submit" target="_blank">Submit</a></button>
+    </form>
+
+
+    
+    <section id="features">
+        <div id="premium-section">
+            <img src="https://cdn-icons-png.flaticon.com/512/1454/1454825.png" alt="premium-mat" id="premium">
+            <p id="premium-text">Premium Materials</p>
+            <p id="premium-p">Our pianos use the shiniest wood which is sourced locally. 
+            This will increase the longevity of your purchase.</p> <br>
+        </div>
+
+        <div id fast-section>
+                <img src="data:image/png;base64,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" alt="fast-shipping" id="fast">
+                <p id="fast-text">Fast Shipping</p>
+                <p id="fast-p">We make sure you recieve your piano as soon as we have finished making
+             it. We also provide free returns if you are not satisfied.</p> <br>
+        </div>
+
+        <div id="quality-section">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe4uUMC5XMBRXv9A3TGY5My6HCsRSbMfT4MQ&usqp=CAU" alt="quality-assurance" id="quality">
+            <p id="quality-text">Quality Assurance</p>
+            <p id="quality-p">For every purchase you make, we will ensure there are no damages or faults
+             and we will check and test the pitch of your instrument.</p> <br>
+        </div>
+
+    </section>
+
+    <div id="video-page" style="text-align: center;">
+            <iframe width="600" height="335" src="https://www.youtube.com/embed/e8NIOMRxAI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>    
+        </div> <br> <br>
+
+    <section id="pricing">
+
+        <div id="clavi">
+            <p id="clavi-t">Clavinovas</p><br>
+            <p id="clavi-price">$6,299.99</p> <br>
+            <p id="clavi-p">Explore a world of music with clavinova endless possibilities on an amazing instrument.</p> <br> <br>
+            <button type="button" id="select">Select</button><br>
+        </div>
+
+        <div id="hybrid">
+            <p id="hybrid-t">Hybrid Piano</p> <br>
+            <p id="hybrid-price">$15,499.00</p> <br>
+            <p id="hybrid-p">Amazing sound reproducing qualities of a digital piano sound engine.</p><br> <br>
+            <button type="button" id="select">Select</button><br>
+
+        </div>
+
+        <div id="disc">
+            <p id="disc-t">Disklaiver</p><br>
+            <p id="disc-price">$3,599.00</p><br>
+            <p id="disc-p">Enjoy an unlimited array of recording, playback, educational and entertainment possibilities.</p> <br> <br>
+            <button type="button" id="select">Select</button><br>
+
+           
+        </div>
+
+    </section> 
+
+
+    <footer>
+        <div id="footer">
+        <h4>Copyright 2016, Pianos Vera</h4>
+        <p>Contact us to: <a href="#" id="contact">pianosvera@pianosvera.com</a></p>
+    </div>
+    </footer> --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
