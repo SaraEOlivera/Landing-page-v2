@@ -63,19 +63,22 @@ section {
 }
 
 .casa-vera {
+    width: 70%;
+}
+
+.casa-vera img{
     height: auto;
-    width: 60%;
+    width: 80%;
 }
 
 .texto-vera {
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 18px;
     height: 400px;
-    width: 40%;
+    width: 30%;
 }
 
 /* Seccion carrusel */
-
 
 .carrusel-pianos {
     width: 80%;
@@ -90,10 +93,11 @@ section {
 }
 
 /* Seccion pricing */
-.filas {
+.tipos {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0 4px;
+    /* width: 100%; */
 }
 
 .columna {
@@ -103,13 +107,18 @@ section {
 }
 
 .card {
-    height: 600px;
-    margin-top: 8px;
-    vertical-align: middle;
+    height: auto;  /*600px;*/
+    /* margin-top: 8px;
+    vertical-align: middle; */
 }
 
 .card:hover{
     background-color: #f2f2f2;
+}
+
+.card .img-card {
+    width: 250px;
+    height: 200px;
 }
 
 .card-title {
@@ -288,10 +297,10 @@ section {
 }
 
 
-/* Responsive */
+/* Responsive  > 768 */
 @media all and (min-width: 768px) and (max-width: 1200px) {
     body {
-        width: 748px;
+        width: 740px;
     }
     
     /* Header y navbar */
@@ -304,16 +313,17 @@ section {
         width: 100%;
         height: auto;
     }
-    
-    /* Seccion imagen de piano */
-    
 
     /* Seccion about */
     .contenedor-about {
         padding-top: 100px;
     }
-    
+
     .casa-vera {
+        width: 100%;
+    }
+    
+    .casa-vera img{
         height: auto;
         width: 100%;
         margin: auto;
@@ -331,25 +341,118 @@ section {
     .carrusel {
         height: 600px;
     }
+
     .carrusel-pianos {
         width: 90%;
         height: 500px;
     }
     
     /* Seccion pricing */
-    .filas {
-        height: 1200px;
+    .tipos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
-
 
     .columna {
         flex: 50%;
         max-width: 50%;
-      }
-    
+    }
+
+    .card {
+        max-width: 350px;
+    }
+
+    .card .img-card {
+        max-width: 200px;
+        max-height: 150px;
+        margin: auto;
+    }
+
     /* Seccion caracteristicas */    
     .leyenda {
         margin-top: 110px;
         font-size: 22px;
     }    
 }
+
+/* Responsive > 520 */
+@media all and (min-width: 520px) and (max-width: 767px){
+    body {
+        width: 100%;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .about {
+        width: 100%;
+        height: 800px;
+    }
+
+    .contenedor-about {
+        padding-top: 50px;
+    }
+
+    .casa-vera {
+        width: 100%;
+    }
+
+    .casa-vera img{
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .texto-vera {
+        height: 250px;
+        margin-top: 50px;
+        font-size: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .carrusel {
+        width: 100%;
+        height: 700px;
+    }
+
+    .carrusel-pianos {
+        width: 100%;
+        height: auto;
+    }
+
+    .pricing {
+        width: 100%;
+        height: auto;
+    }
+
+    .tipos {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .columna {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .caracteristicas{
+        height: 600px;
+    }
+
+    .leyenda {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
