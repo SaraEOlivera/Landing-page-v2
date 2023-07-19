@@ -448,6 +448,153 @@ section {
     }
 }
 
+/* Responsive < 520 */
+@media all and (max-width: 519px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .about {
+        height: 700px;
+    }
+
+    .contenedor-about {
+        padding-top: 30px;
+    }
+
+    .casa-vera {
+        width: 100%;
+    }
+
+    .casa-vera img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .texto-vera {
+        width: 100%;
+    }
+
+    .carrusel-pianos {
+        width: 100%;;
+    }
+
+    .pricing {
+        height: auto;
+    }
+
+    .tipos {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .columna {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .card .img-card {
+        margin: auto;
+    }
+
+    .caracteristicas {
+        height: 750px;
+    }
+
+    .leyenda {
+        display: none;
+    }
+    
+    /* Footer landing page */
+    .footer-vera{
+        height: 350px;
+    }
+
+    .contenedor-footer-vera {
+        display: block;
+    }
+
+    .contenedor-footer-vera h4 {
+        display: none;
+    }
+
+    .plano {
+        width: 100%;
+    }
+
+    iframe {
+        height:300px;
+    }
+
+    .redes{
+        padding-top: 35px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .redes-vera-iconos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .redes-vera-iconos i {
+        margin: auto;
+        height: 40px;
+    }
+
+    .vera {
+        display: none;
+    }
+
+    .vera img {
+        display: none;
+    }
+
+    .footer-oli {
+        margin-top: 20px;
+        height: 80px;
+        width: 100%;
+        /* position: fixed; */
+        bottom: 0;
+    }
+
+    .contenedor-footer-oli {
+        max-height: 50px;
+        justify-content: space-between;
+    }
+
+    .landing-page {
+        display: none;
+    }
+
+    .icono-contacto {
+        width: 20%;
+        height: 50px;
+    }
+
+    .link-footer {
+        width: 80%;
+        height: 50px;
+
+    }
+
+    .icono-contacto i, .link-footer {
+        font-size: 16px;
+    }
+
+    .icono-contacto i {
+        margin-left: 10px;
+    }
+}
+
+/*Fin responsive area*/
+
 
 
 
